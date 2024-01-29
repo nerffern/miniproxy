@@ -2,7 +2,7 @@ import socket
 import threading
 
 # List of allowed IP addresses
-allowed_ips = ['10.6.100.132', '10.6.100.130','10.6.100.131','10.1.34.55']  # Add your allowed IPs here
+allowed_ips = ['10.16.192.192', '10.16.192.130','10.16.200.231','10.1.234.155']  # Add your allowed IPs here
 
 def handle_client(client_socket):
     client_address = client_socket.getpeername()[0]  # Get the client's IP address
